@@ -1,6 +1,6 @@
-# Cortex
+# Cortex CLI
 
-**A three-stage CLI that audits your codebase for security vulnerabilities, architectural issues, and dependency risks — with AI-powered explanations.**
+**A three-stage CLI that audits your codebase for security vulnerabilities, architectural issues, and dependency risks, with AI-powered explanations.**
 
 Local-first. No data leaves your machine. Works with Ollama, OpenAI, Anthropic, or any OpenAI-compatible API.
 
@@ -74,13 +74,13 @@ cortex scan . --severity high
 
 ## The three stages
 
-### Stage 1 — Reconnaissance
+### Stage 1, Reconnaissance
 Cortex first builds a complete picture of your codebase before raising any issues: file structure, tech stack, framework detection, dependency graph, HTTP endpoints, and infrastructure config files.
 
-### Stage 2 — Security scanning
+### Stage 2, Security scanning
 A suite of detectors runs against the recon data, searching for security vulnerabilities: hardcoded secrets, injection risks, insecure dependencies, JWT misconfigurations, CORS issues, and more.
 
-### Stage 3 — Architecture analysis
+### Stage 3, Architecture analysis
 Cortex measures the health of your architectural decisions: god files, circular dependencies, missing error handling, dead code, and test coverage gaps.
 
 ---
@@ -157,7 +157,7 @@ We welcome new detectors, language support, and bug fixes. See [CONTRIBUTING.md]
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
 
 ---
 
